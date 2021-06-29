@@ -1,6 +1,7 @@
 # wash (Wide Area SHell)
 
 [![GitHub release](https://img.shields.io/github/release/puppetlabs/wash.svg)](https://github.com/puppetlabs/wash/releases/) [![Build Status](https://travis-ci.com/puppetlabs/wash.svg)](https://travis-ci.com/puppetlabs/wash) [![GoDoc](https://godoc.org/github.com/puppetlabs/wash?status.svg)](https://godoc.org/github.com/puppetlabs/wash) [![Go Report Card](https://goreportcard.com/badge/github.com/puppetlabs/wash)](https://goreportcard.com/report/github.com/puppetlabs/wash)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkenazk%2Fwash.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkenazk%2Fwash?ref=badge_shield)
 
 `wash` helps you deal with all your remote or cloud-native infrastructure using the UNIX-y patterns and tools you already know and love!
 
@@ -253,3 +254,7 @@ Project maintainers are not actively working on all of these things, but any of 
 ## Contributing
 
 We'd love to get contributions from you! For a quick guide, take a look at our guide to [contributing](./CONTRIBUTING.md).
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkenazk%2Fwash.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkenazk%2Fwash?ref=badge_large)
