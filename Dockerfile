@@ -14,7 +14,7 @@ FROM build_base AS builder
 COPY . .
 RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a -installsuffix cgo -ldflags="-w -s"
 
-FROM alpine AS wash
+FROM alpine:3.18.3 AS wash
 RUN apk update && apk add --no-cache fuse ca-certificates
 COPY --from=builder /workdir/wash /bin/wash
 WORKDIR /mnt
